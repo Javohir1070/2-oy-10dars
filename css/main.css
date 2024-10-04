@@ -1,0 +1,33 @@
+table{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-spacing: 0;
+    border-radius: 10px;
+}
+.table-heading{
+    background-color: gray;
+}
+.table-heading > tr > th{
+    padding: 10px;
+    color: white;
+}
+.table-heading > tr > th:first-child{
+    border-top-left-radius: 10px;
+}
+.table-heading > tr > th:last-child{
+    border-top-right-radius: 10px;
+}
+.table-body > tr > td{
+    padding: 10px;
+    text-align: center;
+    
+}
+.table-body > tr:nth-child(2n){
+    color: aqua;
+    background-color: rgb(179, 175, 175);
+}
+.table-body > tr:nth-child(2n+1){
+    color: white;
+    background-color: rgb(200, 197, 197);
+}
